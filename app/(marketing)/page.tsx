@@ -1,5 +1,6 @@
+import { Footer } from "./_components/Footer"
 import { Heading } from "./_components/Heading"
-import {Heroes} from "./_components/Heroes"
+import { Heroes } from "./_components/Heroes"
 
 const MarketingPage = () => {
   return (
@@ -8,6 +9,7 @@ const MarketingPage = () => {
         <Heading />
         <Heroes />
       </div>
+      <Footer />
     </div>
   )
 }
